@@ -1,3 +1,5 @@
+Basic info about RGB - http://retrorgb.com/rgbintro.html
+
 Base schematic info:
 SCART -> IDC34 = https://wavebeam.blogspot.com/2017/08/making-scart-adapter-for-sony-34-pin.html
 BNC -> IDC34 = https://www.reddit.com/r/crtgaming/comments/85gxof/sony_profeel_34_pin_rgb_cable_success/dw0ljwp/ and https://imgur.com/gallery/XTBUQ
