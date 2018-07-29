@@ -1,0 +1,16 @@
+Base schematic info:
+SCART -> IDC34 = https://wavebeam.blogspot.com/2017/08/making-scart-adapter-for-sony-34-pin.html
+BNC -> IDC34 = https://www.reddit.com/r/crtgaming/comments/85gxof/sony_profeel_34_pin_rgb_cable_success/dw0ljwp/ and https://imgur.com/gallery/XTBUQ
+
+Schematic info:
+
+Bus Switcher - https://www.engadget.com/2007/03/13/how-to-make-a-solid-state-a-v-switcher/
+Bus Switcher 2 - https://forums.overclockers.com.au/threads/solid-state-av-switcher.608891/
+
+Pullup Resistor info - https://learn.sparkfun.com/tutorials/pull-up-resistors
+
+DC Jack symbol pins - https://electronics.stackexchange.com/questions/2381/deciphering-a-dc-jack-schematic
+
+Parts:
+Power - https://www.mouser.com/ProductDetail/Triad-Magnetics/WDU9-300?qs=sGAEpiMZZMt5w6YCUaBPUeTWvnHCr2l3u8qF88x1pg0%3d
+

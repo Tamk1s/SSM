@@ -1,0 +1,4 @@
+Empty space = purple (51, 0, 85)
+17 Pads = Gold (177,136,131)
+21/22 t/b Place = White (197,183,208)
+25/26 t/bnames = Grey (193,177,203)

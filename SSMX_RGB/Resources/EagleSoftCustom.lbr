@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.4.3">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="help" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="DOC" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="bot_pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="S_DOKU" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOIC-20">
+<wire x1="6.083" y1="-4.186" x2="-6.337" y2="-4.186" width="0.2032" layer="51"/>
+<wire x1="-6.337" y1="-4.186" x2="-6.337" y2="-3.686" width="0.2032" layer="51"/>
+<wire x1="-6.337" y1="-3.686" x2="-6.337" y2="3.7288" width="0.2032" layer="51"/>
+<wire x1="-6.337" y1="3.7288" x2="6.083" y2="3.7288" width="0.2032" layer="51"/>
+<wire x1="6.083" y1="-3.686" x2="-6.337" y2="-3.686" width="0.2032" layer="51"/>
+<wire x1="6.083" y1="3.7288" x2="6.083" y2="-3.686" width="0.2032" layer="51"/>
+<wire x1="6.083" y1="-3.686" x2="6.083" y2="-4.186" width="0.2032" layer="21"/>
+<smd name="IA1" x="-4.572" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="IB4" x="-2.032" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<smd name="EA" x="-5.842" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OB4" x="-3.302" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="IA2" x="-2.032" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OA1" x="-3.302" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OA2" x="-0.762" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<smd name="IB3" x="0.508" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<smd name="IA3" x="0.508" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="IB2" x="3.048" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OB3" x="-0.762" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OB2" x="1.778" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OA3" x="1.778" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<smd name="IA4" x="3.048" y="-4.886" dx="0.6" dy="2.2" layer="1"/>
+<smd name="EB" x="-4.572" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<smd name="VCC" x="-5.842" y="4.4288" dx="0.6" dy="2.2" layer="1"/>
+<text x="-6.7564" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.8608" y="-0.5334" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.547" y1="-5.386" x2="-3.057" y2="-4.286" layer="51"/>
+<rectangle x1="-4.817" y1="-5.386" x2="-4.327" y2="-4.286" layer="51"/>
+<rectangle x1="-3.547" y1="-5.386" x2="-3.057" y2="-4.286" layer="51"/>
+<rectangle x1="-2.277" y1="-5.386" x2="-1.787" y2="-4.286" layer="51"/>
+<rectangle x1="0.263" y1="3.8288" x2="0.753" y2="4.9288" layer="51"/>
+<rectangle x1="-1.007" y1="3.8288" x2="-0.517" y2="4.9288" layer="51"/>
+<rectangle x1="-2.277" y1="3.8288" x2="-1.787" y2="4.9288" layer="51"/>
+<rectangle x1="-3.547" y1="3.8288" x2="-3.057" y2="4.9288" layer="51"/>
+<rectangle x1="-1.007" y1="-5.386" x2="-0.517" y2="-4.286" layer="51"/>
+<rectangle x1="0.263" y1="-5.386" x2="0.753" y2="-4.286" layer="51"/>
+<rectangle x1="1.533" y1="-5.386" x2="2.023" y2="-4.286" layer="51"/>
+<rectangle x1="2.803" y1="-5.386" x2="3.293" y2="-4.286" layer="51"/>
+<rectangle x1="2.803" y1="3.8288" x2="3.293" y2="4.9288" layer="51"/>
+<rectangle x1="1.533" y1="3.8288" x2="2.023" y2="4.9288" layer="51"/>
+<rectangle x1="-4.817" y1="3.8288" x2="-4.327" y2="4.9288" layer="51"/>
+<rectangle x1="-6.087" y1="3.8288" x2="-5.597" y2="4.9288" layer="51"/>
+<smd name="GND" x="5.588" y="-4.8895" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OB1" x="4.318" y="-4.8895" dx="0.6" dy="2.2" layer="1"/>
+<smd name="IB1" x="5.588" y="4.4323" dx="0.6" dy="2.2" layer="1"/>
+<smd name="OA4" x="4.318" y="4.4323" dx="0.6" dy="2.2" layer="1"/>
+<rectangle x1="2.803" y1="3.8288" x2="3.293" y2="4.9288" layer="51"/>
+<rectangle x1="4.073" y1="3.8288" x2="4.563" y2="4.9288" layer="51"/>
+<rectangle x1="5.343" y1="3.8288" x2="5.833" y2="4.9288" layer="51"/>
+<rectangle x1="4.073" y1="-5.366" x2="4.563" y2="-4.266" layer="51"/>
+<rectangle x1="5.343" y1="-5.366" x2="5.833" y2="-4.266" layer="51"/>
+<circle x="-5.461" y="-2.7178" radius="0.530365625" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TLV5619">
+<description>2.7 V to 5.5 V 12-Bit Parallel DAC with power down</description>
+<wire x1="-10.16" y1="25.4" x2="10.16" y2="25.4" width="0.127" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="10.16" y2="-29.21" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-29.21" x2="-10.16" y2="-29.21" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-29.21" x2="-10.16" y2="25.4" width="0.127" layer="94"/>
+<pin name="D0" x="-15.24" y="20.32" length="middle" direction="in"/>
+<pin name="D1" x="-15.24" y="17.78" length="middle" direction="in"/>
+<pin name="D2" x="-15.24" y="15.24" length="middle" direction="in"/>
+<pin name="D3" x="-15.24" y="12.7" length="middle" direction="in"/>
+<pin name="D4" x="-15.24" y="10.16" length="middle" direction="in"/>
+<pin name="D5" x="-15.24" y="7.62" length="middle" direction="in"/>
+<pin name="D6" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="D7" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="D8" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="D9" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="D10" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="D11" x="-15.24" y="-7.62" length="middle" direction="in"/>
+<pin name="CS" x="-15.24" y="-12.7" length="middle" direction="in" function="dot"/>
+<pin name="WE" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
+<pin name="LDAC" x="-15.24" y="-17.78" length="middle" direction="in" function="dot"/>
+<pin name="PD" x="-15.24" y="-20.32" length="middle" direction="in" function="dot"/>
+<pin name="GND" x="2.54" y="-34.29" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="2.54" y="30.48" length="middle" direction="pwr" rot="R270"/>
+<pin name="OUT" x="15.24" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="REFIN" x="-15.24" y="-25.4" length="middle" direction="in"/>
+<wire x1="-7.874" y1="-11.684" x2="-4.572" y2="-11.684" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-14.224" x2="-4.318" y2="-14.224" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-16.764" x2="-2.032" y2="-16.764" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-19.304" x2="-4.826" y2="-19.304" width="0.127" layer="95"/>
+<text x="-10.16" y="29.21" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="26.67" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TLV5633">
+<description>2.7V to 5.5V Low-Power 12-Bit DAC with internal reference and power down</description>
+<wire x1="-10.16" y1="24.13" x2="10.16" y2="24.13" width="0.127" layer="94"/>
+<wire x1="10.16" y1="24.13" x2="10.16" y2="-22.86" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="24.13" width="0.127" layer="94"/>
+<pin name="D0" x="-15.24" y="21.59" length="middle" direction="in"/>
+<pin name="D1" x="-15.24" y="19.05" length="middle" direction="in"/>
+<pin name="D2" x="-15.24" y="16.51" length="middle" direction="in"/>
+<pin name="D3" x="-15.24" y="13.97" length="middle" direction="in"/>
+<pin name="D4" x="-15.24" y="11.43" length="middle" direction="in"/>
+<pin name="D5" x="-15.24" y="8.89" length="middle" direction="in"/>
+<pin name="D6" x="-15.24" y="6.35" length="middle" direction="in"/>
+<pin name="D7" x="-15.24" y="3.81" length="middle" direction="in"/>
+<pin name="CS" x="-15.24" y="-8.89" length="middle" direction="in" function="dot"/>
+<pin name="WE" x="-15.24" y="-11.43" length="middle" direction="in" function="dot"/>
+<pin name="LDAC" x="-15.24" y="-13.97" length="middle" direction="in" function="dot"/>
+<pin name="PWR" x="-15.24" y="-16.51" length="middle" direction="in" function="dot"/>
+<pin name="AGND" x="1.27" y="-27.94" length="middle" direction="pwr" rot="R90"/>
+<pin name="AVDD" x="0" y="29.21" length="middle" direction="pwr" rot="R270"/>
+<pin name="OUT" x="15.24" y="8.89" length="middle" direction="out" rot="R180"/>
+<pin name="REF" x="15.24" y="-13.97" length="middle" direction="in" rot="R180"/>
+<wire x1="-7.874" y1="-7.874" x2="-4.572" y2="-7.874" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-10.414" x2="-4.318" y2="-10.414" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-12.954" x2="-2.032" y2="-12.954" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-15.494" x2="-2.286" y2="-15.494" width="0.127" layer="95"/>
+<text x="-11.43" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+<text x="-11.43" y="25.4" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A0" x="-15.24" y="-1.27" length="middle" direction="in"/>
+<pin name="A1" x="-15.24" y="-3.81" length="middle" direction="in"/>
+<pin name="DVDD" x="3.81" y="29.21" length="middle" direction="in" rot="R270"/>
+<pin name="SPD" x="15.24" y="-6.35" length="middle" direction="in" rot="R180"/>
+</symbol>
+<symbol name="TLV5639">
+<description>2.7V to 5.5V Low-Power 12-Bit DAC with internal reference and power down</description>
+<wire x1="-10.16" y1="25.4" x2="7.62" y2="25.4" width="0.127" layer="94"/>
+<wire x1="7.62" y1="25.4" x2="7.62" y2="-29.21" width="0.127" layer="94"/>
+<wire x1="7.62" y1="-29.21" x2="-10.16" y2="-29.21" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-29.21" x2="-10.16" y2="25.4" width="0.127" layer="94"/>
+<pin name="D0" x="-15.24" y="20.32" length="middle" direction="in"/>
+<pin name="D1" x="-15.24" y="17.78" length="middle" direction="in"/>
+<pin name="D2" x="-15.24" y="15.24" length="middle" direction="in"/>
+<pin name="D3" x="-15.24" y="12.7" length="middle" direction="in"/>
+<pin name="D4" x="-15.24" y="10.16" length="middle" direction="in"/>
+<pin name="D5" x="-15.24" y="7.62" length="middle" direction="in"/>
+<pin name="D6" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="D7" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="D8" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="D9" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="D10" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="D11" x="-15.24" y="-7.62" length="middle" direction="in"/>
+<pin name="CS" x="-15.24" y="-12.7" length="middle" direction="in" function="dot"/>
+<pin name="WE" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
+<pin name="LDAC" x="-15.24" y="-17.78" length="middle" direction="in" function="dot"/>
+<pin name="REG" x="-15.24" y="-20.32" length="middle" direction="in"/>
+<pin name="AGND" x="1.27" y="-34.29" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="1.27" y="30.48" length="middle" direction="pwr" rot="R270"/>
+<pin name="OUT" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="REF" x="-15.24" y="-25.4" length="middle" direction="in"/>
+<wire x1="-7.874" y1="-11.684" x2="-4.572" y2="-11.684" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-14.224" x2="-4.318" y2="-14.224" width="0.127" layer="95"/>
+<wire x1="-7.874" y1="-16.764" x2="-2.032" y2="-16.764" width="0.127" layer="95"/>
+<text x="-10.16" y="29.21" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="26.67" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TLV5613">
+<description>2.7 to 5.5V 12-Bit  Parallel DAC with power down</description>
+<wire x1="-10.16" y1="11.43" x2="10.16" y2="11.43" width="0.127" layer="94"/>
+<wire x1="10.16" y1="11.43" x2="10.16" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-11.43" x2="-10.16" y2="-11.43" width="0.127" layer="94"/>
+<pin name="!EB" x="2.54" y="16.51" length="middle" direction="pwr" swaplevel="2" rot="R270"/>
+<pin name="VCC" x="-2.54" y="-16.51" length="middle" direction="pwr" swaplevel="3" rot="R90"/>
+<pin name="!EA" x="-2.54" y="16.51" length="middle" direction="pwr" swaplevel="1" rot="R270"/>
+<pin name="IA1" x="-15.24" y="8.89" length="middle" direction="in" swaplevel="1"/>
+<pin name="OB4" x="15.24" y="-8.89" length="middle" direction="out" swaplevel="8" rot="R180"/>
+<pin name="IA2" x="-15.24" y="6.35" length="middle" direction="in" swaplevel="2"/>
+<pin name="OB3" x="15.24" y="-6.35" length="middle" direction="out" swaplevel="7" rot="R180"/>
+<pin name="IA3" x="-15.24" y="3.81" length="middle" direction="in" swaplevel="3"/>
+<pin name="OA1" x="15.24" y="8.89" length="middle" direction="out" swaplevel="1" rot="R180"/>
+<pin name="IB4" x="-15.24" y="-8.89" length="middle" direction="in" swaplevel="8"/>
+<pin name="OA2" x="15.24" y="6.35" length="middle" direction="out" swaplevel="2" rot="R180"/>
+<pin name="IB3" x="-15.24" y="-6.35" length="middle" direction="in" swaplevel="7"/>
+<pin name="OA3" x="15.24" y="3.81" length="middle" direction="out" swaplevel="3" rot="R180"/>
+<pin name="IB1" x="-15.24" y="-1.27" length="middle" direction="in" swaplevel="5"/>
+<pin name="IB2" x="-15.24" y="-3.81" length="middle" direction="in" swaplevel="6"/>
+<pin name="OA4" x="15.24" y="1.27" length="middle" direction="out" swaplevel="4" rot="R180"/>
+<text x="-11.43" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-11.43" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IA4" x="-15.24" y="1.27" length="middle" direction="in" swaplevel="4"/>
+<pin name="OB2" x="15.24" y="-3.81" length="middle" direction="out" swaplevel="6" rot="R180"/>
+<pin name="GND" x="2.54" y="-16.51" length="middle" direction="pwr" swaplevel="4" rot="R90"/>
+<pin name="OB1" x="15.24" y="-1.27" length="middle" direction="out" swaplevel="5" rot="R180"/>
+<wire x1="-10.16" y1="-11.43" x2="-10.16" y2="11.43" width="0.127" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CBT3244A" prefix="IC">
+<description>2.7 to 5.5V 12-Bit Parallel DAC with power down</description>
+<gates>
+<gate name="G$1" symbol="TLV5613" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DW" package="SOIC-20">
+<connects>
+<connect gate="G$1" pin="!EA" pad="EA"/>
+<connect gate="G$1" pin="!EB" pad="EB"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IA1" pad="IA1"/>
+<connect gate="G$1" pin="IA2" pad="IA2"/>
+<connect gate="G$1" pin="IA3" pad="IA3"/>
+<connect gate="G$1" pin="IA4" pad="IA4"/>
+<connect gate="G$1" pin="IB1" pad="IB1"/>
+<connect gate="G$1" pin="IB2" pad="IB2"/>
+<connect gate="G$1" pin="IB3" pad="IB3"/>
+<connect gate="G$1" pin="IB4" pad="IB4"/>
+<connect gate="G$1" pin="OA1" pad="OA1"/>
+<connect gate="G$1" pin="OA2" pad="OA2"/>
+<connect gate="G$1" pin="OA3" pad="OA3"/>
+<connect gate="G$1" pin="OA4" pad="OA4"/>
+<connect gate="G$1" pin="OB1" pad="OB1"/>
+<connect gate="G$1" pin="OB2" pad="OB2"/>
+<connect gate="G$1" pin="OB3" pad="OB3"/>
+<connect gate="G$1" pin="OB4" pad="OB4"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
