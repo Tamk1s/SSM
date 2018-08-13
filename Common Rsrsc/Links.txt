@@ -8,11 +8,12 @@ Schematic info:
 
 Bus Switcher - https://www.engadget.com/2007/03/13/how-to-make-a-solid-state-a-v-switcher/
 Bus Switcher 2 - https://forums.overclockers.com.au/threads/solid-state-av-switcher.608891/
+SCART Breakout - https://oshpark.com/shared_projects/X2S30KLq
 
 Pullup Resistor info - https://learn.sparkfun.com/tutorials/pull-up-resistors
 
+Eagle Symbols:
+IDC34 - http://www.diymodules.org/eagle-show-library?type=usr&id=1012211566&part=con-3m-skt-header.lbr
+SCART - https://www.diymodules.org/eagle-show-object?type=std&file=con-hirschmann.lbr&device=SCART-F
+Switches - https://github.com/zumbik/Eagle-Libraries/blob/master/gm/gm-switches.lbr
 DC Jack symbol pins - https://electronics.stackexchange.com/questions/2381/deciphering-a-dc-jack-schematic
-
-Parts:
-Power - https://www.mouser.com/ProductDetail/Triad-Magnetics/WDU9-300?qs=sGAEpiMZZMt5w6YCUaBPUeTWvnHCr2l3u8qF88x1pg0%3d
-

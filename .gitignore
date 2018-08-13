@@ -50,3 +50,5 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+Common Rsrsc/DigiKey.pdf
+Common Rsrsc/Bom2.xlsx
