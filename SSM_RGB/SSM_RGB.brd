@@ -85,9 +85,9 @@
 <text x="105.58145" y="63.97625" size="1.6256" layer="25">Sony Super Multi RGB
 (RGB interface for
 IDC34 monitors)</text>
-<text x="137.2997" y="36.72205" size="1.016" layer="21">A = Normal
+<text x="137.2997" y="36.72205" size="1.016" layer="21">A = Nonstd.
 B = Twisted</text>
-<text x="147.74545" y="98.97745" size="0.8128" layer="21">BNC_HCOMP_SYNC
+<text x="147.74545" y="98.97745" size="0.8128" layer="21">BNC_HCSYNC
 is both
 CSync and HSync</text>
 <text x="96.33585" y="35.5473" size="0.8128" layer="21" rot="R90">RCA Audio only available
@@ -6058,7 +6058,6 @@ for BNC connection</text>
 <rectangle x1="135.886825" y1="71.027925" x2="137.023475" y2="71.034275" layer="17"/>
 <rectangle x1="135.912225" y1="71.034275" x2="136.998075" y2="71.040625" layer="17"/>
 <rectangle x1="135.912225" y1="71.040625" x2="136.998075" y2="71.046975" layer="17"/>
-<text x="130.63855" y="58.52795" size="0.0127" layer="17" font="vector">C:/Users/Anthony/Documents/eagle/SSM/Artwork/Large/p1m.bmp</text>
 <rectangle x1="134.750175" y1="58.874025" x2="134.877175" y2="58.880375" layer="29"/>
 <rectangle x1="134.750175" y1="58.880375" x2="134.877175" y2="58.886725" layer="29"/>
 <rectangle x1="134.718425" y1="58.886725" x2="134.908925" y2="58.893075" layer="29"/>
@@ -12018,7 +12017,6 @@ for BNC connection</text>
 <rectangle x1="135.886825" y1="71.027925" x2="137.023475" y2="71.034275" layer="29"/>
 <rectangle x1="135.912225" y1="71.034275" x2="136.998075" y2="71.040625" layer="29"/>
 <rectangle x1="135.912225" y1="71.040625" x2="136.998075" y2="71.046975" layer="29"/>
-<text x="130.63855" y="58.52795" size="0.0127" layer="29" font="vector">C:/Users/Anthony/Documents/eagle/SSM/Artwork/Large/p1m.bmp</text>
 <rectangle x1="139.087225" y1="60.144025" x2="139.322175" y2="60.150375" layer="21"/>
 <rectangle x1="139.087225" y1="60.150375" x2="139.322175" y2="60.156725" layer="21"/>
 <rectangle x1="139.061825" y1="60.156725" x2="139.353925" y2="60.163075" layer="21"/>
@@ -13016,7 +13014,6 @@ for BNC connection</text>
 <rectangle x1="133.346825" y1="65.947925" x2="133.956425" y2="65.954275" layer="21"/>
 <rectangle x1="133.372225" y1="65.954275" x2="133.924675" y2="65.960625" layer="21"/>
 <rectangle x1="133.372225" y1="65.960625" x2="133.924675" y2="65.966975" layer="21"/>
-<text x="130.63855" y="58.52795" size="0.0127" layer="21" font="vector">C:/Users/Anthony/Documents/eagle/SSM/Artwork/Large/p2m.bmp</text>
 <rectangle x1="134.223125" y1="58.766075" x2="134.724775" y2="58.772425" layer="25"/>
 <rectangle x1="134.223125" y1="58.772425" x2="134.724775" y2="58.778775" layer="25"/>
 <rectangle x1="134.197725" y1="58.778775" x2="134.750175" y2="58.785125" layer="25"/>
@@ -13316,7 +13313,9 @@ for BNC connection</text>
 <rectangle x1="131.924425" y1="61.814075" x2="132.000625" y2="61.820425" layer="25"/>
 <rectangle x1="131.949825" y1="61.820425" x2="131.975225" y2="61.826775" layer="25"/>
 <rectangle x1="131.949825" y1="61.826775" x2="131.975225" y2="61.833125" layer="25"/>
-<text x="130.63855" y="58.52795" size="0.0127" layer="25" font="vector">C:/Users/Anthony/Documents/eagle/SSM/Artwork/Large/p3m.bmp</text>
+<text x="105.9815" y="52.6034" size="1.143" layer="25">DO NOT attempt using both
+SCART and BNC/RCA
+at the same time!</text>
 </plain>
 <libraries>
 <library name="con-3m-skt-header">
@@ -14039,7 +14038,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="IDC34" library="con-3m-skt-header" package="S34RA" value="" x="160.02" y="68.58" rot="R270"/>
-<element name="BNC_HCOMP_SYNC" library="amphenol-142142_10" package="142142" value="142142" x="143.5989" y="92.04325" smashed="yes" rot="R90">
+<element name="BNC_HCSYNC" library="amphenol-142142_10" package="142142" value="142142" x="143.5989" y="92.04325" smashed="yes" rot="R90">
 <attribute name="MF" value="Amphenol Connex" x="143.5989" y="92.04325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="143.5989" y="92.04325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="139.1031" y="87.81415" size="1.27" layer="25" rot="R90"/>
@@ -14087,7 +14086,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="127.56515" y="41.43375" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="592791" x="122.73915" y="47.27575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="06WX5914" x="122.73915" y="47.27575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="116.64315" y="41.43375" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="SCART" library="con-hirschmann" library_urn="urn:adsk.eagle:library:153" package="SCART-F" package3d_urn="urn:adsk.eagle:package:7461/1" value="SCART-F" x="87.63" y="69.215" rot="R270">
 <attribute name="MF" value="" x="87.63" y="69.215" size="1.778" layer="27" rot="R270" display="off"/>
@@ -14112,7 +14110,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="HCOMP_SYNC+">
 <contactref element="IDC34" pad="9"/>
 <contactref element="SCART" pad="20"/>
-<contactref element="BNC_HCOMP_SYNC" pad="1"/>
+<contactref element="BNC_HCSYNC" pad="1"/>
 <wire x1="154.432" y1="59.436" x2="154.432" y2="58.42" width="0.254" layer="16"/>
 <wire x1="148.59" y1="65.278" x2="154.432" y2="59.436" width="0.254" layer="16"/>
 <wire x1="148.59" y1="74.422" x2="148.59" y2="65.278" width="0.254" layer="16"/>
@@ -14374,10 +14372,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="HCOMP_SYNC-">
 <contactref element="SCART" pad="18"/>
-<contactref element="BNC_HCOMP_SYNC" pad="3"/>
-<contactref element="BNC_HCOMP_SYNC" pad="2"/>
-<contactref element="BNC_HCOMP_SYNC" pad="4"/>
-<contactref element="BNC_HCOMP_SYNC" pad="5"/>
+<contactref element="BNC_HCSYNC" pad="3"/>
+<contactref element="BNC_HCSYNC" pad="2"/>
+<contactref element="BNC_HCSYNC" pad="4"/>
+<contactref element="BNC_HCSYNC" pad="5"/>
 <contactref element="SW_HCSYNC-" pad="2"/>
 <wire x1="141.224" y1="94.488" x2="141.224" y2="89.662" width="0.254" layer="1"/>
 <wire x1="141.224" y1="89.662" x2="141.0589" y2="89.50325" width="0.254" layer="1"/>

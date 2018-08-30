@@ -1238,7 +1238,7 @@ Audio, scart, microphone, headphone&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="BNC_HCOMP_SYNC" library="amphenol-142142_10" deviceset="142142" device="">
+<part name="BNC_HCSYNC" library="amphenol-142142_10" deviceset="142142" device="">
 <attribute name="MPN" value=""/>
 </part>
 <part name="BNC_VSYNC" library="amphenol-142142_10" deviceset="142142" device=""/>
@@ -1258,7 +1258,7 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="BNC_HCOMP_SYNC" gate="G$1" x="22.86" y="106.68" rot="R270"/>
+<instance part="BNC_HCSYNC" gate="G$1" x="22.86" y="106.68" rot="R270"/>
 <instance part="BNC_VSYNC" gate="G$1" x="35.56" y="106.68" rot="R270"/>
 <instance part="BNC_R" gate="G$1" x="45.72" y="106.68" rot="R270"/>
 <instance part="BNC_G" gate="G$1" x="55.88" y="106.68" rot="R270"/>
@@ -1285,7 +1285,7 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <pinref part="SCART" gate="G$1" pin="20"/>
 <wire x1="-5.08" y1="27.94" x2="-5.08" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="BNC_HCOMP_SYNC" gate="G$1" pin="1"/>
+<pinref part="BNC_HCSYNC" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="104.14" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 <junction x="22.86" y="33.02"/>
 <label x="-20.32" y="35.56" size="1.778" layer="95"/>
@@ -1469,7 +1469,7 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <wire x1="-12.7" y1="121.92" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="121.92" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="BNC_HCOMP_SYNC" gate="G$1" pin="2"/>
+<pinref part="BNC_HCSYNC" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="104.14" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="99.06" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="99.06" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
