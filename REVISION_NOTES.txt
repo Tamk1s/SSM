@@ -1,11 +1,26 @@
+FEEDBACK:
+*Flip BNC V & H sync positions (RGBHV not RGBVH)
+
+*Better footprints:
+**BNC jacks
+**IDC34 jack
+**RCA Jacks
+**Power switch
+**Power Jack
+
 *Make BNC connectors have a min c2c distance of 0.75"-1"
-*Get a new SCART footprint that utilizes tabs
-*Cheap rubber feet?
-*Foam blocks for parts
-*Make sure SSM and SSMX (maybe?) still fit in Stackable Walmart crayon box
+
+2 new models:
+*DX Basic
+*DX Premium
+Both like SSM and SSMX models, but terinate with IDC14 headers/cables, which goto other adapter suboards for different outputs. (IDC34, DB25, 8-pin Multi Input)
+Research the pinouts for typical PVM DB-25 and goofball Profeel 8-pin
+
+*Adjust width of SSMX to make it still fit in Stackable Walmart crayon box
 https://www.walmart.com/ip/Advantus-Corp-Stackable-Crayon-Box/32962001
 
 BOM:
 *Crayon box
 *Foam block 
+*Cheap rubber feet
 *6"x9" padded
