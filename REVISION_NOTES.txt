@@ -1,6 +1,8 @@
 FEEDBACK:
 *Flip BNC V & H sync positions (RGBHV not RGBVH)
 
+*WARNING! SSMX model has missing trace on the power circuit for one of the power rails! FIX THIS
+
 *Better footprints:
 **BNC jacks
 **IDC34 jack
@@ -9,6 +11,7 @@ FEEDBACK:
 **Power Jack
 
 *Make BNC connectors have a min c2c distance of 0.75"-1"
+*Replace Bus Switch ICs (now obsoleted) with newer replacment, refactor board. (Has more inputs than older, additional input unused)
 
 2 new models:
 *DX Basic
