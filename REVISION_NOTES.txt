@@ -2,6 +2,7 @@ FEEDBACK:
 *Flip BNC V & H sync positions (RGBHV not RGBVH)
 
 *WARNING! SSMX model has missing trace on the power circuit for one of the power rails! FIX THIS
+*SSMX Eagle PCB art is messed up. Copy logo from SSM to fix it.
 
 *Better footprints:
 **BNC jacks
@@ -16,11 +17,13 @@ FEEDBACK:
 2 new models:
 *DX Basic
 *DX Premium
-Both like SSM and SSMX models, but terinate with IDC14 headers/cables, which goto other adapter suboards for different outputs. (IDC34, DB25, 8-pin Multi Input)
+Both like SSM and SSMX models, but terminate with IDC14 headers/cables, which goto other adapter daughterboards for different outputs. (IDC34, DB25, 8-pin Multi Input)
 Research the pinouts for typical PVM DB-25 and goofball Profeel 8-pin
 
-*Adjust width of SSMX to make it still fit in Stackable Walmart crayon box
-https://www.walmart.com/ip/Advantus-Corp-Stackable-Crayon-Box/32962001
+*Adjust width of SSMX to make it still fit in Stackable Walmart crayon box https://www.walmart.com/ip/Advantus-Corp-Stackable-Crayon-Box/32962001
+OR better yet!
+*Michael's metal box:
+https://www.michaels.com/darice-small-rectangular-metal-tin-with-lid-silver/D048191S.html
 
 BOM:
 *Crayon box
